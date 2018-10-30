@@ -6,7 +6,7 @@
 // else subtract from value (checks the proper amount of letters)
 // return true  if all passes 
 
-
+// 'anagram', 'nagaram'   should return true 
 function validAnagram(first, second) {
     if (first.length !== second.length) {
         return false;

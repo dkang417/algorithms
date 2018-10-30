@@ -9,6 +9,15 @@
 function sameFrequency(num1, num2){
     // good luck. Add any arguments you deem necessary.
   
+    // first convert numbers toString()
+    // check if both strings have the same length. if not return false 
+    // create 2 empty objects for each string 
+    // loop through 1 string and add to empty object.
+    // loop through 2nd string and add to empty object 2.
+    // loop through any object using for in loop for(let key in object1)
+        // if object[key] !== object2[key] return false
+    // return true
+
     let strNum1 = num1.toString();
     let strNum2 = num2.toString();
     if(strNum1.length !== strNum2.length) return false;
